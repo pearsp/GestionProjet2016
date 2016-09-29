@@ -26,6 +26,10 @@ using Stack = log4net.Util.ThreadContextStack.Stack;
 
 namespace log4net
 {
+
+    /*
+     * NDS !! 
+     * /
 	/// <summary>
 	/// Implementation of Nested Diagnostic Contexts.
 	/// </summary>
