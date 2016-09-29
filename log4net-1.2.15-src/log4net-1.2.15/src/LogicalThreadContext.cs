@@ -79,6 +79,7 @@ namespace log4net
 	/// <author>Nicko Cadell</author>
 	public sealed class LogicalThreadContext
 	{
+        //un code random passe par là
 		#region Private Instance Constructors
 
 		/// <summary>
