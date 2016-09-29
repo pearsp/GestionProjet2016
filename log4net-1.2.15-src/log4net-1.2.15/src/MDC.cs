@@ -22,6 +22,9 @@ using System.Collections;
 
 namespace log4net
 {
+    /*
+     * MDC ;)
+     * /
 	/// <summary>
 	/// Implementation of Mapped Diagnostic Contexts.
 	/// </summary>
