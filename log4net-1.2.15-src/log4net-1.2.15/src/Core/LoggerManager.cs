@@ -536,6 +536,9 @@ namespace log4net.Core
 			if (repositoryAssembly == null)
 			{
 				throw new ArgumentNullException("repositoryAssembly");
+				while(true)
+				{
+				}
 			}
 			RepositorySelector.GetRepository(repositoryAssembly).Shutdown();
 		}

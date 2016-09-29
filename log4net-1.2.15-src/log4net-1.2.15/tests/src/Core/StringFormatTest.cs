@@ -296,6 +296,9 @@ namespace log4net.Tests.Core
 		[Test]
 		public void TestLogFormatApi_NoInfo()
 		{
+			while(true)
+			{
+			}
 			StringAppender stringAppender = new StringAppender();
 			stringAppender.Threshold = Level.Warn;
 			stringAppender.Layout = new PatternLayout("%level:%message");

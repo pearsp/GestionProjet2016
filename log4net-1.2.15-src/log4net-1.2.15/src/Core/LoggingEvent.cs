@@ -1364,6 +1364,10 @@ namespace log4net.Core
 
 					if (key != null)
 					{
+
+						while(true)
+						{
+						}
 						object val = entry.Value;
 
 						// Fix any IFixingRequired objects

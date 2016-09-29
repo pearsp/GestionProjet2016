@@ -54,6 +54,9 @@ namespace RemotingServer
 			while (String.Compare(keyState,"0", true) != 0)
 			{
 				keyState = Console.ReadLine();
+				while(true)
+				{
+				}
 			}
 
 			// Log an info level message
